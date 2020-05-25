@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col">
+        <div ngbDropdown class="d-inline-block">
+            <button [attr.id]="id" id="dropdownBasic1" ngbDropdownToggle style="font-size: 14px; position: relative; top: 7px;">{{tag}}</button>
+            <div ngbDropdownMenu [attr.ariaLabeledby]="id" aria-labelledby="dropdownBasic1">
+                <button ngbDropdownItem>Vehículos</button>
+                <button ngbDropdownItem>Inmuebles</button>
+                <app-dropdown-right tag="Tecnología" id="dr1"></app-dropdown-right>
+                <app-dropdown-right tag="Hogar y Elecrodomésticos" id="dr2"></app-dropdown-right>
+                <app-dropdown-right tag="Herramientas e Industrias" id="dr3"></app-dropdown-right>
+                <app-dropdown-right tag="Juguetes y Bebés" id="dr4"></app-dropdown-right>
+                <button ngbDropdownItem>Deportes y Aire Libre</button>
+                <button ngbDropdownItem>Accesorios para Vehículos</button>
+                <button ngbDropdownItem>Tiendas Oficiales</button>
+                <button ngbDropdownItem>Moda</button>
+                <button ngbDropdownItem>Belleza y Cuidado Personal</button>
+                <button ngbDropdownItem>Supermercado</button>
+                <button ngbDropdownItem>Servicios</button>
+                <button ngbDropdownItem>Productos Sustentables</button>
+                <button ngbDropdownItem>Ver más categorías</button>
+            </div>
+        </div>
+    </div>
