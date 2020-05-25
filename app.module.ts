@@ -9,6 +9,8 @@ import { DropdownComponent } from './shared/header/headerb/dropdown/dropdown.com
 import { ModalComponent } from './shared/header/headerb/modal/modal.component';
 import { DropdownRightComponent } from './shared/header/headerb/dropdown/dropdown-right/dropdown-right.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { CarrouselComponent } from './shared/carrousel/carrousel.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,8 @@ import { HeaderComponent } from './shared/header/header.component';
     DropdownComponent,
     ModalComponent,
     DropdownRightComponent,
-    HeaderComponent
+    HeaderComponent,
+    CarrouselComponent
   ],
   imports: [
     BrowserModule,
