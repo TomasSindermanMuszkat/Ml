@@ -12,6 +12,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { CarrouselComponent } from './shared/carrousel/carrousel.component';
 import { SlickComponent } from './shared/slick/slick.component';
 import { AdvertisementComponent } from './shared/advertisement/advertisement.component';
+import { StoreComponent } from './shared/store/store.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +26,11 @@ import { AdvertisementComponent } from './shared/advertisement/advertisement.com
     CarrouselComponent,
     SlickComponent,
     AdvertisementComponent,
+    StoreComponent,
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
