@@ -11,6 +11,7 @@ import { DropdownRightComponent } from './shared/header/headerb/dropdown/dropdow
 import { HeaderComponent } from './shared/header/header.component';
 import { CarrouselComponent } from './shared/carrousel/carrousel.component';
 import { SlickComponent } from './shared/slick/slick.component';
+import { AdvertisementComponent } from './shared/advertisement/advertisement.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SlickComponent } from './shared/slick/slick.component';
     DropdownRightComponent,
     HeaderComponent,
     CarrouselComponent,
-    SlickComponent
+    SlickComponent,
+    AdvertisementComponent,
   ],
   imports: [
     BrowserModule,
