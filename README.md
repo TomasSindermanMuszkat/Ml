@@ -1,4 +1,4 @@
-#Market Template:
+Market Template:
 
 dependencies:
 ng-bootstrap, 
