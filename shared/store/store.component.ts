@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  // this was a totally calculated referce
+  // this was a totally calculated reference
   selector: 'app-store',
   templateUrl: './store.component.html',
   styles: [
