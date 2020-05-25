@@ -14,6 +14,8 @@ import { SlickComponent } from './shared/slick/slick.component';
 import { AdvertisementComponent } from './shared/advertisement/advertisement.component';
 import { StoreComponent } from './shared/store/store.component';
 import { CategoriesComponent } from './shared/categories/categories.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { PaymentsComponent } from './shared/footer/payments/payments.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { CategoriesComponent } from './shared/categories/categories.component';
     SlickComponent,
     AdvertisementComponent,
     StoreComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    FooterComponent,
+    PaymentsComponent
   ],
   imports: [
     BrowserModule,
