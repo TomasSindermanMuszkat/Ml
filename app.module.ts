@@ -13,6 +13,7 @@ import { CarrouselComponent } from './shared/carrousel/carrousel.component';
 import { SlickComponent } from './shared/slick/slick.component';
 import { AdvertisementComponent } from './shared/advertisement/advertisement.component';
 import { StoreComponent } from './shared/store/store.component';
+import { CategoriesComponent } from './shared/categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { StoreComponent } from './shared/store/store.component';
     SlickComponent,
     AdvertisementComponent,
     StoreComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,
